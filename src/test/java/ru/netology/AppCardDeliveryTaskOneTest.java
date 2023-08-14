@@ -3,13 +3,10 @@ package ru.netology;
 import com.codeborne.selenide.SelenideElement;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.Keys;
-
-import java.nio.channels.ConnectionPendingException;
 import java.time.Duration;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-import java.util.concurrent.locks.Condition;
-
+import com.codeborne.selenide.Condition;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
